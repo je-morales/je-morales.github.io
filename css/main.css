@@ -35,6 +35,8 @@ ul {
 	background-position: 50% 60%;
 	background-color: rgba(0, 0, 0, 0.3);
 	background-blend-mode: overlay;
+	position: relative;
+	top: -20px;
 }
 
 #home {
@@ -157,11 +159,16 @@ ul {
 	margin-bottom: 10px;
 }
 
+.title {
+	margin: 20px auto;
+	text-transform: uppercase;
+}
+
 .home-card-text {
 	margin: 10px 30px;
 	text-align: justify;
-	line-height: 22px;
-	font-size: 15px;
+	line-height: 24px;
+	font-size: 16px;
 }
 
 .content-single-title {
@@ -625,6 +632,10 @@ ul {
 
 @media screen and (max-width: 819px) {
 
+	#home .title {
+		font-size: 50px;
+	}
+
 	.content {
 		padding-bottom: 60px;
 	}
@@ -682,7 +693,7 @@ ul {
 
 	.home-card-title {
 		text-align: left;
-		margin: 5px 30px 0 30px;
+		margin: 0;
 	}
 	
 	.card-title {
@@ -723,6 +734,7 @@ ul {
 
 	.main-banner {
 		height: 100vh;
+		top: 0;
 	}
 
 	.main-banner-text {
@@ -769,6 +781,8 @@ ul {
 		padding: 0;
 		font-size: 14px;
 		height: 105px;
+		display: flex;
+		align-items: center;
 	}
 	
 	.card-text {
