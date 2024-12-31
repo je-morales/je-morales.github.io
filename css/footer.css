@@ -1,0 +1,209 @@
+.footer {
+    min-height: 400px;
+	padding: 20px 100px 50px 100px;
+	background-color: rgb(248, 248, 248);
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: rgb(8, 6, 87);
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 40px;
+    row-gap: 3em;
+    column-gap: .5em;
+}
+
+.footer-top-left {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.footer-link-list {
+    list-style: none;
+    columns: 2;
+    padding-left: 0;
+    min-width: 250px;
+    margin-left: 0;
+    column-gap: 100px;
+}
+
+ul.footer-link-list li {
+    line-height: 2;
+    font-size: 18px;
+}
+
+.footer-end {
+    display: flex;
+    flex: 1;
+    margin: 40px auto 0 auto;
+}
+
+.footer-end p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.redes-sociales-list {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: center;
+
+}
+
+.footer-top-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 250px;
+}
+
+.redes-sociales-texto {
+    text-align: center;
+}
+
+.redes-sociales-single {
+    display: flex;
+    flex: 1;
+    margin: 0;
+    justify-content: center;
+}
+
+.redes-sociales-single a > img {
+	max-width: 30px;
+	padding: 10px;
+}
+
+.footer-bottom {
+    margin-top: 80px;
+    /* max-width: 1200px;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.footer-bottom-left {
+    flex: 1;
+}
+
+.footer-bottom-right {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-bottom-direccion {
+    color: rgb(8, 6, 87);
+}
+
+.footer-bottom-direccion > a {
+    text-decoration: none;
+    color: rgb(8, 6, 87);
+}
+
+.footer-bottom-direccion br {
+    line-height: .9;
+}
+
+.footer-aseguradora-logo img {
+    max-height: 50px;
+    max-width: 100px;
+    padding: 5px;
+}
+
+.footer-direccion-1 {
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-direccion-2 {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+@media screen and (max-width: 800px) {
+    .footer-link-list {
+        column-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .footer-top {
+        padding: 40px 0 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-bottom {
+        margin-top: 30px;
+    }
+
+    .footer-bottom-right {
+        column-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .footer {
+        padding: 20px 30px 30px 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        row-gap: 60px;
+    }
+
+    .footer-bottom-left {
+        flex-wrap: nowrap;
+        flex: 1;
+        margin: 0;
+        text-align: center;
+    }
+
+    .links-list {
+        columns: 2;
+    }
+
+    .footer-bottom-right {
+        flex-wrap: wrap;
+        flex: 1;
+    }
+
+    .footer-aseguradora-logo {
+        margin: 5px;
+    }
+
+    .footer-aseguradora-logo img {
+        max-height: 50px;
+        max-width: 80px;
+        /*padding: 10px 5px 5px 5px;*/
+    }
+
+    ul.links-list li {
+        font-size: 16px;
+    }
+}
