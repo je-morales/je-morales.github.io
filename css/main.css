@@ -733,6 +733,8 @@ ul {
 	#home .title {
 		font-size: 35px;
 		padding-top: 0;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 
 	.headline,
@@ -814,6 +816,7 @@ ul {
 
 	.content {
 		max-width: 90%;
+		row-gap: 60px;
 	}
 
 	.services-single {
