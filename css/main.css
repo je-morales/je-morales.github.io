@@ -36,7 +36,6 @@ ul {
 	background-color: rgba(0, 0, 0, 0.3);
 	background-blend-mode: overlay;
 	position: relative;
-	top: -20px;
 }
 
 #home {
@@ -160,8 +159,12 @@ ul {
 }
 
 .title {
-	margin: 20px auto;
 	text-transform: uppercase;
+}
+
+.home-card-title {
+	margin: 20px auto;
+	text-transform:uppercase ;
 }
 
 .home-card-text {
@@ -693,7 +696,7 @@ ul {
 
 	.home-card-title {
 		text-align: left;
-		margin: 0;
+		margin: 0 0 0 30px;
 	}
 	
 	.card-title {
